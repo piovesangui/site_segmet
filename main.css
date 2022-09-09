@@ -10,6 +10,21 @@ header {
     padding: 16px 0;
 }
 
+header,
+section h2,
+section h3,
+form button {
+    font-family: 'Oswald', sans-serif;
+    font-weight: bolder;
+}
+
+body,
+input,
+textarea,
+p {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
 header h1 {
     font-size: 48px;
 }
@@ -115,6 +130,10 @@ form button {
     width: 320px;
     margin-bottom: 8px;
     padding: 8px;
+}
+
+form button {
+    font-size: 18px;
 }
 
 form textarea {
